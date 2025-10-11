@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# 🌐 NextStep.AI — Multilingual Voice-Based Career Mentor
 
-## Project info
+NextStep.AI is a multilingual, AI-powered Progressive Web App (PWA) that transforms career guidance for students through **personalized mentorship**, **voice-based interaction**, and **visual career roadmaps**.  
+Built with **React + Vite + TailwindCSS + Supabase + OpenAI APIs**, it helps students explore the right career paths with interactive and engaging AI conversations.
 
-**URL**: https://lovable.dev/projects/efb1dce6-2ec7-43b1-9120-6a0170dde6a0
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+### 🧠 AI Career Mentor
+- Real-time career guidance powered by **GPT-4o**
+- Understands user interests, skills, and aspirations
+- Provides personalized **career recommendations**
 
-**Use Lovable**
+### 🗣️ Voice Interaction
+- Multilingual **speech recognition** (English + Telugu)
+- **Text-to-speech** AI responses
+- Hands-free **voice command navigation**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/efb1dce6-2ec7-43b1-9120-6a0170dde6a0) and start prompting.
+### 🌍 Multilingual Support
+- Dynamic translation with `i18next`
+- Adapts to regional and cultural career contexts
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🗺️ Career Path Visualization
+- AI-generated **interactive roadmaps** (nodes + edges)
+- Displays skills, milestones, and learning resources
+- Downloadable **career report PDFs**
 
-**Use your preferred IDE**
+### 🧾 Personalized Dashboard
+- Saved conversation history
+- Career progress tracking
+- Generated visuals gallery
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### ⚙️ PWA Capabilities
+- Offline access for cached content
+- Add-to-Home-Screen prompt
+- Push notifications for milestones
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧩 Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Layer | Technology |
+|--------|-------------|
+| Frontend | React + Vite + TypeScript |
+| Styling | Tailwind CSS + Framer Motion |
+| Backend | Supabase (Auth, DB, Storage) |
+| AI APIs | OpenAI GPT-4o, Whisper, DALL·E |
+| Speech | Web Speech API |
+| PWA | Service Workers + Manifest |
+| Deployment | Vercel |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/efb1dce6-2ec7-43b1-9120-6a0170dde6a0) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
